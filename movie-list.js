@@ -25,8 +25,9 @@ function renderProducts(products) {
             productElement.innerHTML = `
                 <a href="product-detail.html?id=${product.id}">
                     <img src="${product.images[0].src}" alt="${product.images[0].alt || product.name}">
-                    <h3>${product.name}</h3>     
+                      
                 </a>
+                <h3>${product.name}</h3>  
                 <div class="description">${product.description}</div>
             `;
             container.appendChild(productElement);
