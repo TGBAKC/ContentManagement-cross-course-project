@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our wide range of movies to find your favorite genres and titles.">
+    <title>Movies - Square Eyes</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body class="movies-body">
+    <header>
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <a href="index.html" class="logo">
+                <img src="images/SquareEyes_Logo.png" alt="Square Eyes Logo">
+            </a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="movies.html" class="nav-links">Movies</a>
+                </li>
+                <li>
+                    <a href="About.html" class="nav-links">About Us</a>
+                </li>
+                <li>
+                    <a href="Contact.html" class="nav-links">Contact</a>
+                </li>
+                <li>
+                    <a href="Contact.html" class="nav-links">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="title">Movie List</h1>
+        <div class="product" id="productContainer">
+            <div id="loadingIndicator" style="display: flex; color: black; text-align: center;">
+                Loading...
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="icon"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="movie-list.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
